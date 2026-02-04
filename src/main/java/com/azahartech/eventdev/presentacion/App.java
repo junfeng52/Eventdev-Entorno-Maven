@@ -2,6 +2,8 @@ package com.azahartech.eventdev.presentacion;
 
 import java.time.LocalDate;
 
+//Comentario.
+
 public class App {
     public static void main(String[] args) {
         LocalDate fechaActual = LocalDate.now();

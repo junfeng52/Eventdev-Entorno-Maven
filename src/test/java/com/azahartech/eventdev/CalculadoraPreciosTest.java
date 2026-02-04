@@ -15,6 +15,5 @@ class CalculadoraPreciosTest {
         // 100€, 1 entrada, VIP (2) -> 100€.
         // 100 + 50 (VIP) = 150. + 21% IVA = 181.5
         assertEquals(181.5, cal.calcularPrecioTotal(100, 1, 2), 0.01);
-        assertTrue(false);
     }
 }
